@@ -4,8 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-scikit-learn = "==1.6.0"
 flask = "*"
+pandas = "*"
+arrow = "*"
+scikit-learn = "==1.6.0"
+pyarrow = "*"
 
 [dev-packages]
 
